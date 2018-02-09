@@ -1,0 +1,113 @@
+{
+  "rbnf": {
+    "nci": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 11914 $",
+          "_cldrVersion": "33"
+        },
+        "language": "nci"
+      },
+      "rbnf": {
+        "SpelloutRules": {
+          "%spellout-numbering-year": [
+            "x.x: =#,###0.#=;",
+            "0: =%spellout-numbering=;"
+          ],
+          "%spellout-numbering": [
+            "0: =%spellout-cardinal=;"
+          ],
+          "%spellout-cardinal": [
+            "-x: mēnos >>;",
+            "x.x: << punto >>;",
+            "0: cēro;",
+            "1: cē;",
+            "2: ōme;",
+            "3: ēyi;",
+            "4: nāhui;",
+            "5: mācuīlli;",
+            "6: chicuacē;",
+            "7: chicōme;",
+            "8: chicuēyi;",
+            "9: chicunāhui;",
+            "10: mahtlāc>%%tlionnumber>;",
+            "15/5: caxtōl>%%lionnumber>;",
+            "20/20: <%%numberm<­pōhual>%%lionnumber>;",
+            "400/400: <%%numbern<­tzontli[ ipan >%spellout-cardinal>];",
+            "8000/8000: <%%numbern<­xiquipilli[ ipan >%spellout-cardinal>];",
+            "160000/160,000: <%%numberm<­pōhual­xiquipilli[ ipan >%spellout-cardinal>];",
+            "3200000/3,200,000: <%%numbern<­tzon­xiquipilli[ ipan >%spellout-cardinal>];",
+            "64000000/64,000,000: <%%numberm<­pōhual­tzon­xiquipilli[ ipan >%spellout-cardinal>];",
+            "1280000000: =#,##0=;"
+          ],
+          "%%lionnumber": [
+            "0: li;",
+            "1: ­=%%on==%spellout-cardinal=;"
+          ],
+          "%%lionnumberm": [
+            "0: li;",
+            "1: ­=%%on==%%numberm=;"
+          ],
+          "%%lionnumbern": [
+            "0: li;",
+            "1: ­=%%on==%%numbern=;"
+          ],
+          "%%tlionnumber": [
+            "0: tli;",
+            "1: tli =%%on==%spellout-cardinal=;"
+          ],
+          "%%tlionnumberm": [
+            "0: tli;",
+            "1: tli =%%on==%%numberm=;"
+          ],
+          "%%tlionnumbern": [
+            "0: tli;",
+            "1: tli =%%on==%%numbern=;"
+          ],
+          "%%onnumberm": [
+            "1: ­=%%on==%%numberm=;"
+          ],
+          "%%onnumbern": [
+            "1: ­=%%on==%%numbern=;"
+          ],
+          "%%on": [
+            "1: on­;",
+            "2: om­;",
+            "3: on­;",
+            "5: ;"
+          ],
+          "%%numberm": [
+            "1: cēm;",
+            "2: ōm;",
+            "3: yēm;",
+            "4: nāuh;",
+            "5: mācuīl;",
+            "6: chicua­cēm;",
+            "7: chic­ōm;",
+            "8: chicu­yēm;",
+            "9: chicu­nāuh;",
+            "10: mahtlāc>%%onnumberm>;",
+            "15/5: caxtōl>%%onnumberm>;"
+          ],
+          "%%numbern": [
+            "1: cēn;",
+            "2: ōn;",
+            "3: yēn;",
+            "4: nāuh;",
+            "5: mācuīl;",
+            "6: chicua­cēn;",
+            "7: chic­ōn;",
+            "8: chicu­yēn;",
+            "9: chicu­nāuh;",
+            "10: mahtlāc>%%onnumbern>;",
+            "15/5: caxtōl>%%onnumbern>;"
+          ],
+          "%spellout-ordinal": [
+            "x.x: =#,##0.#=;",
+            "0: inic =%spellout-cardinal=;"
+          ]
+        }
+      }
+    }
+  }
+}
